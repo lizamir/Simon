@@ -1,0 +1,64 @@
+.app-header {
+  height: 10vh;
+  background-color: #0a0909ed;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline-start: 20px;
+  padding-inline-end: 50px;
+  position: relative;
+  z-index: 10;
+  -webkit-box-shadow: 0 10px 5px rgba(73, 66, 70, 0.3);
+  -moz-box-shadow: 0 10px 5px rgba(63, 55, 59, 0.3);
+  box-shadow: 0 10px 5px rgba(53, 49, 51, 0.3);
+
+  h1 {
+    font-family: GrandHotel;
+    color: #02baba78;
+  }
+
+  .navbar-header {
+    display: flex;
+    li {
+      margin-inline-start: 10px;
+      list-style: none;
+      a {
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 1.5rem;
+      }
+    }
+
+    .icon-toggle {
+      cursor: pointer;
+    }
+  }
+
+  .icon {
+    font-size: 35px;
+    margin: 10px;
+    color: #02baba78;
+  }
+  img {
+    width: 40px;
+    margin-inline-start: 30px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+  }
+  .icon-nav {
+    width: 40px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .app-header {
+    .icon-nav {
+      width: 30px;
+    }
+    img {
+      width: 30px;
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.colorCard {
+  width: 200px;
+  height: 200px;
+}
+
+.flash.flash {
+  border: 3px solid white;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.red {
+  right: 15px;
+  top: 15px;
+  background: #f93232;
+  -webkit-border-radius: 20px 320px 20px 20px;
+  -moz-border-radius: 20px 320px 20px 20px;
+  -o-border-radius: 20px 320px 20px 20px;
+  border-radius: 20px 320px 20px 20px;
+  &.flash {
+    background-color: rgb(255, 125, 125);
+    -webkit-border-radius: 20px 320px 20px 20px;
+    -moz-border-radius: 20px 320px 20px 20px;
+    -o-border-radius: 20px 320px 20px 20px;
+    border-radius: 20px 320px 20px 20px;
+  }
+}
+
+.blue {
+  bottom: 15px;
+  left: 15px;
+  background: #2323eff2;
+  -webkit-border-radius: 20px 20px 20px 320px;
+  -moz-border-radius: 20px 20px 20px 320px;
+  -o-border-radius: 20px 20px 20px 320px;
+  border-radius: 20px 20px 20px 320px;
+  &.flash {
+    background-color: rgb(125, 125, 255);
+    -webkit-border-radius: 20px 20px 20px 320px;
+    -moz-border-radius: 20px 20px 20px 320px;
+    -o-border-radius: 20px 20px 20px 320px;
+    border-radius: 20px 20px 20px 320px;
+  }
+}
+
+.green {
+  left: 15px;
+  top: 15px;
+  -webkit-border-radius: 320px 20px 20px;
+  -moz-border-radius: 320px 20px 20px;
+  -o-border-radius: 320px 20px 20px;
+  border-radius: 320px 20px 20px;
+  background-color: #1bbd1be3;
+  &.flash {
+    background-color: rgb(125, 255, 125);
+    -webkit-border-radius: 320px 20px 20px;
+    -moz-border-radius: 320px 20px 20px;
+    -o-border-radius: 320px 20px 20px;
+    border-radius: 320px 20px 20px;
+  }
+}
+
+.yellow {
+  bottom: 15px;
+  right: 15px;
+  background: #f5f534f2;
+  -webkit-border-radius: 20px 20px 320px 20px;
+  -moz-border-radius: 20px 20px 320px 20px;
+  -o-border-radius: 20px 20px 320px 20px;
+  border-radius: 20px 20px 320px 20px;
+  &.flash {
+    background-color: rgb(255, 255, 125);
+    -webkit-border-radius: 20px 20px 320px 20px;
+    -moz-border-radius: 20px 20px 320px 20px;
+    -o-border-radius: 20px 20px 320px 20px;
+    border-radius: 20px 20px 320px 20px;
+  }
+}

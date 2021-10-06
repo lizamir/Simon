@@ -1,0 +1,29 @@
+.about {
+  background-color: #a2d0d078;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .title {
+    width: 100%;
+    font-size: 70px;
+    font-family: GrandHotel;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ef5c83;
+  }
+
+  .container {
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    font-family: Baumans;
+    margin: 0 auto;
+    font-size: 25px;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
+  }
+}

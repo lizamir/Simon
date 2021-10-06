@@ -1,0 +1,54 @@
+.home-container {
+  color: bisque;
+  margin-block-start: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .card-wrapper {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .start-button {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 10px 22px -7px #0d1719;
+    background: linear-gradient(to bottom, #161b1d 5%, #394f52 100%);
+    border-radius: 50%;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 100px;
+    text-shadow: 0px 1px 0px #000000;
+    border: none;
+  }
+
+  .lost {
+    position: absolute;
+    width: 415px;
+    height: 415px;
+    background-color: black;
+    border-radius: 50%;
+    line-height: 100px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .score {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #353333db;
+    color: blanchedalmond;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 100px;
+    font-size: 50px;
+  }
+}
